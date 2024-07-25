@@ -10,6 +10,7 @@ group :development, :test do
   gem 'rake', '~> 13.2'
   gem 'rake-compiler', '~> 1.2'
   gem 'rake-compiler-dock', '~> 1.5'
+  gem 'redcarpet', '~> 3.6'
   gem 'rubocop', '~> 1.39.0', require: false
   gem 'ruby-lsp', '~> 0.17', require: false
   gem 'ruby_memcheck', '~> 1.3'

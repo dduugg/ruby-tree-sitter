@@ -3,7 +3,7 @@
 1. Iterate on named children
    - I decided not to include names with `each_named_children` iterator for two
      main reasons:
-     1. It's consitent with `each_children`
+     1. It's consistent with `each_children`
      1. It `field_name` has nothing to do with `named_children`.  It looks like
         a named children is one that has a named rule in the grammar, and a
         field is a literal field in the AST, so you can get into situations

@@ -1,6 +1,9 @@
 --plugin sorbet
 --exclude ext/tree_sitter/.*
+--markup=markdown
+--markup-provider=redcarpet
 -
 README.md
 LICENSE
-docs/*
+docs/*.md
+lib/*.md

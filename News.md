@@ -16,7 +16,7 @@
 
 - Language loading, e.g. `TreeSitter.lang`, is now case insensitive for path lookup only:
   loading `TreeStand.lang('COBOL')` will look for the correct `COBOL` symbol in the parser,
-  wheter it's stored in `cobol.so`, `COBOL.so`, etc.
+  whether it's stored in `cobol.so`, `COBOL.so`, etc.
 - Fixed a bug that caused an exception when reporting an exception in language loading.
 
 # v1.5.0

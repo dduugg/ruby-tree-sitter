@@ -19,7 +19,7 @@ For a give parse tree, that looks something like:
 (method name: (identifier) parameters: (method_parameters (identifier) (identifier)) ...
 ```
 
-We're oftern interested in accessing the children `name` and `parameters` field
+We're often interested in accessing the children `name` and `parameters` field
 names.  Unnamed children usually represent tokens of syntax. If you're writing a
 syntax highlighter, then yes this is very important. But if you're producing an
 AST from the parse tree, then you're more interested in the named children which
@@ -59,7 +59,7 @@ It can also accept `String`s, `Symbol`s which will act as if you called
 `child_by_field_name` to enable the latter syntax.
 
 ``` ruby
-node[:name] 
+node[:name]
 # or
 node.name
 ```
